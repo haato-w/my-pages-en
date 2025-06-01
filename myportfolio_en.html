@@ -26,6 +26,9 @@
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" />
 
+  <!-- Font Awesome (CDN版) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
   <!-- Fonts & Style -->
   <style>
     body {
@@ -50,6 +53,23 @@
       border-radius: 50%;
       object-fit: cover;
     }
+
+    .social-icons {
+      margin-top: 0.5rem;
+    }
+
+    .social-icons a {
+      margin: 0 0.5rem;
+      font-size: 2.0rem;
+      color: #444;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #0072b1; /* LinkedInブルー or GitHubグレー */
+    }
+
     h1 {
       margin: 1rem 0 0.5rem;
     }
@@ -75,6 +95,15 @@
     <img src="assets/my_profile_picture_cropped.png" alt="Haato Watanabe Photo" />
     <h1>Haato Watanabe</h1>
     <p>Master student at UTokyo</p>
+
+    <div class="social-icons">
+      <a href="https://github.com/haato-w" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/haato-watanabe-3769961a7/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
   </header>
 
   <section>
